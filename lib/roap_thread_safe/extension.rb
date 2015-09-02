@@ -11,7 +11,6 @@ module Roap
 
     #runtime
     on /thread-safe()/ do |_super, md, *args|
-      puts _mutex
       _mutex.synchronize {
        _super.call *args
       }
