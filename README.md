@@ -8,7 +8,7 @@ http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html
 
 Usage
 ----
-(아래의 예시는 원래 thread-safe한 코드지만 간단한 예제를 위해 작성함)
+(아래의 예시는 MRI 환경에서 원래 thread-safe한 코드지만 간단한 예제를 위해 작성함)
 ```rb
 class Counter
   def initialize
