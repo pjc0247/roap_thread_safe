@@ -6,6 +6,12 @@ thread-safe 처리된 메소드는 인스턴스 단위로 생성되는 Mutex 잠
 <br>
 http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html
 
+Installation
+----
+```
+gem install roap_thread_safe
+```
+
 Usage
 ----
 (아래의 예시는 MRI 환경에서 원래 thread-safe한 코드지만 간단한 예제를 위해 작성함)
